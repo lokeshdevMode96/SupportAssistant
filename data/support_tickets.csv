@@ -1,0 +1,11 @@
+ticket_id,product,issue,resolution
+T0301,ResumeParser,Resume upload failing intermittently,Re-indexed certification data and sync reinitiated.
+T0302,ResumeParser,Certification completion not reflecting on dashboard,Client browser cache cleared and patch pushed for JS error.
+T0303,ResumeParser,Assessment submission crashes the browser,Client browser cache cleared and patch pushed for JS error.
+T0304,LearnPrism,Assessment submission crashes the browser,Updated regex patterns to support legacy PDF structures.
+T0305,LearnPrism,Profile image not saving after upload,Client browser cache cleared and patch pushed for JS error.
+T0306,ResumeParser,Resume upload failing intermittently,Re-indexed certification data and sync reinitiated.
+T0307,SkillPrism,Assessment submission crashes the browser,Client browser cache cleared and patch pushed for JS error.
+T0308,ResumeParser,Certification completion not reflecting on dashboard,Profile update logic adjusted and retry mechanism added.
+T0309,SkillPrism,PDF parsing fails for older resume formats,Client browser cache cleared and patch pushed for JS error.
+T0310,SkillPrism,Assessment submission crashes the browser,Updated regex patterns to support legacy PDF structures.

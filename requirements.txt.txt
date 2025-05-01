@@ -1,0 +1,7 @@
+streamlit
+sentence-transformers
+faiss-cpu
+pandas
+requests
+google-auth
+google-auth-oauthlib
