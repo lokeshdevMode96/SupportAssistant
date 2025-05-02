@@ -24,7 +24,9 @@ else:
     build_index()
     vectors, metadata = joblib.load(index_path)
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+#model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('all-MiniLM-L6-v2', device='cpu')
+
 
 # Function to call Mistral via Ollama locally
 def get_ollama_response(prompt):
