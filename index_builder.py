@@ -16,7 +16,7 @@ def build_index():
     texts = df['issue'].tolist()
 
     # Load model
-    model = SentenceTransformer('all-MiniLM-L6-v2')
+    model = SentenceTransformer('all-MiniLM-L6-v2', device='cpu')
     vectors = normalize(model.encode(texts)).astype('float32')
 
     # Save vectors + metadata using joblib
