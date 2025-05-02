@@ -13,9 +13,13 @@ init_db()
 
 # Load or rebuild index
 index_path = "vector_store/knn_index.pkl"
-if os.path.exists(index_path):
+metadata_path = "vector_store/ticket_metadata.json"
+
+# If both files exist, load them
+if os.path.exists(index_path) and os.path.exists(metadata_path):
     vectors, metadata = joblib.load(index_path)
 else:
+    # Build index only if missing
     from index_builder import build_index
     build_index()
     vectors, metadata = joblib.load(index_path)
