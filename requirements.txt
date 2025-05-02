@@ -5,3 +5,4 @@ requests
 sentence-transformers
 google-auth
 google-auth-oauthlib
+torch==1.13.1
