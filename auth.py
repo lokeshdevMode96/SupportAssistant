@@ -10,7 +10,7 @@ ALLOWED_DOMAIN = "prismforce.ai"
 
 # OAuth Redirect URI and Scopes
 #REDIRECT_URI = "http://localhost:8501"
-REDIRECT_URI = "https://supportassistant-8iwzpdaxxzu766otu485by.streamlit.app"
+REDIRECT_URI = "https://supportassistant-8iwzpdaxxzu766otu485by.streamlit.app/"
 
 SCOPES = [
     "https://www.googleapis.com/auth/userinfo.email",
