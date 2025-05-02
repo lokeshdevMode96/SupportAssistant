@@ -1,9 +1,9 @@
-streamlit
+streamlit==1.32.2
 pandas
 scikit-learn
 requests
-sentence-transformers
-google-auth
-google-auth-oauthlib
+sentence-transformers==2.2.2
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
 torch==1.13.1+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
